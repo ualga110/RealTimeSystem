@@ -1,0 +1,16 @@
+with Datos;
+use Datos;
+
+package gestion_archivos is
+
+   procedure Comprobar_Archivos;
+   procedure Leer_Entrada (SR1         : out Valor_Radiacion; 
+                           ST4         : out Valor_Temperatura; 
+                           ST3         : out Valor_Temperatura;
+                           Fin_Archivo : out Boolean);
+   
+   procedure Registrar_Datos (Fila : in Iteracion_Registro);
+   
+   
+   procedure Registrar_Alarma (K : in N_Iteracion; Mensaje : in String);
+end gestion_archivos;

@@ -1,0 +1,46 @@
+package Datos is
+
+   type Valor_Sensor is new Float;
+   type N_Iteracion is new Natural;
+   
+   subtype Valor_Temperatura is Valor_Sensor range 0.0 .. 150.0;  -- Sensores ST (Cº)
+   subtype Valor_Caudal      is Valor_Sensor range 0.0 .. 1000.0; -- Sensores SC (L/m)
+   subtype Valor_Radiacion   is Valor_Sensor range 0.0 .. 2000.0; -- Sensores SR (W/m²) 
+   
+   type Iteracion_Registro is record
+      -- Para seguir el número de iteración
+      N : N_Iteracion;
+      
+      -- Sensores de temperatura
+      ST1 : Valor_Temperatura;
+      ST2 : Valor_Temperatura;
+      ST3 : Valor_Temperatura;
+      ST4 : Valor_Temperatura;
+      
+      -- Sensores de caudal
+      SC1 : Valor_Caudal;
+      SC2 : Valor_Caudal;
+      
+      -- Sensores de Radiación
+      SR1 : Valor_Radiacion;
+      
+      -- Sensores de agua destilada
+      SD1 : Valor_Caudal;
+   
+   end record;
+   
+   
+   -- CONSTANTES, voy a pasar todos a Float por comodidad
+   Beta  : constant Float := 0.13;      -- m
+   L_eq  : constant Float := 15.0;      -- m
+   H     : constant Float := 4.0;       -- J/sK
+   C     : constant Float := 1080000.0; -- sL/m³min
+   C_p   : constant Float := 4190.0;    -- J/KgºC
+   Rho : constant Float := 976.0;       -- kg/m³
+   
+   Carpeta_Archivos : constant String := "src/archivos/";
+   Archivo_Entrada : constant String := Carpeta_Archivos & "input.txt";
+   Archivo_Log : constant String := Carpeta_Archivos & "data_log.txt";
+   Archivo_Alarm : constant String := Carpeta_Archivos & "alarm_log.txt";
+   
+end Datos;

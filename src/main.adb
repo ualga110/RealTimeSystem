@@ -1,7 +1,10 @@
 with Ada.Text_IO;
+with gestion_archivos;
+use gestion_archivos;
 procedure Main is
 
 begin
-   --  First comment motherfocker.
-   Ada.Text_IO.Put_Line("Real Time System is onboard");
+   Comprobar_Archivos;
+   --  First comment motherfocker
+   -- Ada.Text_IO.Put_Line("Real Time System is onboard");
 end Main;
