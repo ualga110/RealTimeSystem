@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- ===========================================================================
 --  Programa principal : main.adb
 --  Practica           : Control de Instalacion de Destilacion por Membranas
@@ -201,4 +202,13 @@ begin
    Ada.Text_IO.Close (F_Entrada);
    Ada.Text_IO.Close (F_Log);
 
+=======
+with Ada.Text_IO;
+with gestion_archivos;
+use gestion_archivos;
+use Ada.Text_IO;
+procedure Main is
+begin
+   Comprobar_Archivos;
+>>>>>>> 7530bca9d97c218f57f0dd03ce6016792435d47c
 end Main;

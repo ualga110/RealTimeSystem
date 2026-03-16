@@ -1,0 +1,11 @@
+   N | MENSAJE
+-----|----------------
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
+   1 | Temperatura demasiado alta
