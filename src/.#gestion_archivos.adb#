@@ -1,0 +1,54 @@
+with Ada.Text_IO;
+use Ada.Text_IO;
+
+-- He puesto Put_Lines para poner algo en el método porque si no me daba error de compilación
+package body gestion_archivos is
+
+   
+   -- Leer archivo de input.txt y sacar las variables
+   procedure Leer_Entrada (SR1         : out Valor_Radiacion; 
+                           ST4         : out Valor_Temperatura; 
+                           ST3         : out Valor_Temperatura;
+                           Fin_Archivo : out Boolean) is
+      Entrada : String(
+                       
+                       
+                       
+   
+   begin
+   -- Put_Line("Comienzo método");
+   
+   
+   end Leer_Entrada;
+   
+   
+   -- Escribir los datos en el archivo de salida
+   procedure Registrar_Datos (Fila : in Iteracion_Registro) is
+   begin
+      Put_Line("Comienzo método");
+
+      
+   end Registrar_Datos;
+   
+   
+   
+   -- Registra una alarma y lo pone en el archivo de alarm_log ese
+   procedure Registrar_Alarma (K : in N_Iteracion; Mensaje : in String) is
+   begin
+      Put_Line("Comienzo método");
+
+      
+   end Registrar_Alarma;
+   
+   
+   -- Comprueba si existen lso archivos (ns si es necesario)
+   procedure Comprobar_Archivos is
+      
+     
+   begin
+   
+      Put_Line(Archivo_Entrada);
+   end Comprobar_Archivos;
+   
+
+end gestion_archivos;
