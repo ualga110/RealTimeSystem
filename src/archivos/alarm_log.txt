@@ -1,11 +1,40 @@
    N | MENSAJE
 -----|----------------
    1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
+   1 | Caudal de destilado bajo
+   2 | Temperatura demasiado alta
+   2 | Caudal de destilado bajo
+   3 | Temperatura demasiado alta
+   3 | Caudal de destilado bajo
+   4 | Temperatura demasiado alta
+   4 | Caudal de destilado bajo
+   5 | Temperatura demasiado alta
+   5 | Caudal de destilado bajo
+   6 | Temperatura demasiado alta
+   6 | Caudal de destilado bajo
+   7 | Temperatura demasiado alta
+   7 | Caudal de destilado bajo
+   8 | Temperatura demasiado alta
+   8 | Caudal de destilado bajo
+   9 | Temperatura demasiado alta
+   9 | Caudal de destilado bajo
+  10 | Temperatura demasiado alta
+  10 | Caudal de destilado bajo
+  11 | Temperatura demasiado alta
+  11 | Caudal de destilado bajo
+  12 | Temperatura demasiado alta
+  12 | Caudal de destilado bajo
+  13 | Temperatura demasiado alta
+  13 | Caudal de destilado bajo
+  14 | Temperatura demasiado alta
+  14 | Caudal de destilado bajo
+  15 | Temperatura demasiado alta
+  15 | Caudal de destilado bajo
+  16 | Temperatura demasiado alta
+  16 | Caudal de destilado bajo
+  17 | Temperatura demasiado alta
+  17 | Caudal de destilado bajo
+  18 | Temperatura demasiado alta
+  18 | Caudal de destilado bajo
+  19 | Temperatura demasiado alta
+  19 | Caudal de destilado bajo

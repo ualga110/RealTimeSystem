@@ -12,6 +12,7 @@
 -- ===========================================================================
 
 with Datos; use Datos;
+with gestion_archivos; use gestion_archivos;
 
 package body Simulador is
 
@@ -74,6 +75,22 @@ package body Simulador is
       Resultado.ST2 := Valor_Sensor (ST2_k);
       Resultado.ST1 := Valor_Sensor (ST1_k);
       Resultado.SD1 := Valor_Sensor (SD1_k);
+
+      -- -----------------------------------------------------------------------
+      --  Registrar datos en el log
+      -- -----------------------------------------------------------------------
+      Registrar_Datos (Resultado);
+
+      -- -----------------------------------------------------------------------
+      --  Verificar condiciones de alarma
+      -- -----------------------------------------------------------------------
+      if Float (Resultado.ST1) > 90.0 then
+         Registrar_Alarma (Resultado.N, "Temperatura demasiado alta");
+      end if;
+
+      if Float (Resultado.SD1) < 20.0 then
+         Registrar_Alarma (Resultado.N, "Caudal de destilado bajo");
+      end if;
 
       return Resultado;
 
