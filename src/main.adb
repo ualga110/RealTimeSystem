@@ -5,8 +5,11 @@ with Datos;                use Datos;
 with Simulador;            use Simulador;
 with gestion_archivos;     use gestion_archivos;
 procedure Main is
-   SC1_Nominal : constant Valor_Caudal := 15.0;
-   SC2_Nominal : constant Valor_Caudal := 400.0;
+
+   -- Para el ejercicio 1, tomamos los valores SC1 y SC2 como constantes.
+   -- En el ejercicio 2, se van calculando.
+   SC1_Constante : constant Valor_Caudal := 15.0;
+   SC2_Constante : constant Valor_Caudal := 400.0;
 
    Paso_Previo : Iteracion_Registro :=
      (N   => 0,
@@ -14,8 +17,8 @@ procedure Main is
       ST2 => 55.0,
       ST3 => 0.0,
       ST4 => 0.0,
-      SC1 => SC1_Nominal,
-      SC2 => SC2_Nominal,
+      SC1 => SC1_Constante,
+      SC2 => SC2_Constante,
       SR1 => 0.0,
       SD1 => 0.0);
    Paso_Actual : Iteracion_Registro;
@@ -40,8 +43,8 @@ begin
       Paso_Actual.SR1 := SR1;
       Paso_Actual.ST4 := ST4;
       Paso_Actual.ST3 := ST3;
-      Paso_Actual.SC1 := SC1_Nominal;
-      Paso_Actual.SC2 := SC2_Nominal;
+      Paso_Actual.SC1 := SC1_Constante;
+      Paso_Actual.SC2 := SC2_Constante;
 
       -- Se usan las temperaturas del ciclo anterior
       Paso_Actual.ST1 := Paso_Previo.ST1;
