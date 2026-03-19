@@ -86,16 +86,11 @@ package body Simulador is
       --  Verificar condiciones de alarma
       -- -----------------------------------------------------------------------
       if Float (Resultado.ST1) > 90.0 then
-         New_Line;
-         Put_Line("*ALERTA*: Temperatura demasiado alta");
-         Put_Line("La alerta de la iteración " & N_Iteracion'Image(Resultado.N) & " ha sido enviada al log de alarmas");
+
          Registrar_Alarma (Resultado.N, "Temperatura demasiado alta");
       end if;
 
       if Float (Resultado.SD1) < 20.0 then
-         New_Line;
-         Put_Line("*ALERTA*: Caudal de destilado bajo");
-         Put_Line("La alerta de la iteración " & N_Iteracion'Image(Resultado.N) & " ha sido enviada al log de alarmas");
 
          Registrar_Alarma (Resultado.N, "Caudal de destilado bajo");
       end if;
