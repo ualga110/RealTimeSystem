@@ -12,7 +12,9 @@
 -- ===========================================================================
 
 with Datos; use Datos;
-
+with gestion_archivos; use gestion_archivos;
+with Ada.Text_IO;
+use Ada.Text_IO;
 package body Simulador is
 
    function Calcular_Paso
@@ -74,6 +76,29 @@ package body Simulador is
       Resultado.ST2 := Valor_Sensor (ST2_k);
       Resultado.ST1 := Valor_Sensor (ST1_k);
       Resultado.SD1 := Valor_Sensor (SD1_k);
+
+      -- -----------------------------------------------------------------------
+      --  Registrar datos en el log
+      -- -----------------------------------------------------------------------
+      Registrar_Datos (Resultado);
+
+      -- -----------------------------------------------------------------------
+      --  Verificar condiciones de alarma
+      -- -----------------------------------------------------------------------
+      if Float (Resultado.ST1) > 90.0 then
+         New_Line;
+         Put_Line("*ALERTA*: Temperatura demasiado alta");
+         Put_Line("La alerta de la iteración " & N_Iteracion'Image(Resultado.N) & " ha sido enviada al log de alarmas");
+         Registrar_Alarma (Resultado.N, "Temperatura demasiado alta");
+      end if;
+
+      if Float (Resultado.SD1) < 20.0 then
+         New_Line;
+         Put_Line("*ALERTA*: Caudal de destilado bajo");
+         Put_Line("La alerta de la iteración " & N_Iteracion'Image(Resultado.N) & " ha sido enviada al log de alarmas");
+
+         Registrar_Alarma (Resultado.N, "Caudal de destilado bajo");
+      end if;
 
       return Resultado;
 

@@ -8,42 +8,48 @@ use Ada.Integer_Text_IO;
 use Ada.Float_Text_IO;
 
 package body gestion_archivos is
-   
+
+   F_Entrada : File_Type;
+
+   procedure Abrir_Entrada is
+   begin
+      if not Exists(Archivo_Entrada) then
+         raise Program_Error with "No se encuentra el archivo de entrada: input.txt";
+      end if;
+      Open(F_Entrada, In_File, Archivo_Entrada);
+   end Abrir_Entrada;
+
+   procedure Cerrar_Entrada is
+   begin
+      Close(F_Entrada);
+   end Cerrar_Entrada;
+
    procedure Leer_Entrada (Iteracion : out N_Iteracion;
                           SR1         : out Valor_Radiacion; 
                           ST4         : out Valor_Temperatura; 
                           ST3         : out Valor_Temperatura;
                           Fin_Archivo : out Boolean) is
-      Fichero : File_Type;
       I : Integer;
       S1, T4, T3 : Float;
    begin
-      if not Exists(Archivo_Entrada) then
-         raise Program_Error with "No se encuentra el archivo de entrada: input.txt";
-      end if;
-      
-      Open(Fichero, In_File, Archivo_Entrada);
-      
-      if End_Of_File(Fichero) then
+      if End_Of_File(F_Entrada) then
          Fin_Archivo := True;
-         Close(Fichero);
          return;
       end if;
       
-      Get(Fichero, I);
+      Get(F_Entrada, I);
       Iteracion := N_Iteracion(I);
       
-      Get(Fichero, S1);
+      Get(F_Entrada, S1);
       SR1 := Valor_Radiacion(S1);
       
-      Get(Fichero, T4);
+      Get(F_Entrada, T4);
       ST4 := Valor_Temperatura(T4);
       
-      Get(Fichero, T3);
+      Get(F_Entrada, T3);
       ST3 := Valor_Temperatura(T3);
       
-      Fin_Archivo := End_Of_File(Fichero);
-      Close(Fichero);
+      Fin_Archivo := End_Of_File(F_Entrada);
    end Leer_Entrada;
    
    procedure Crear_Cabecera_Log is

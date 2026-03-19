@@ -5,14 +5,15 @@ package gestion_archivos is
    procedure Comprobar_Archivos;
    procedure Crear_Cabecera_Log;
    procedure Crear_Cabecera_Alarm;
+   procedure Abrir_Entrada;
+   procedure Cerrar_Entrada;
    procedure Leer_Entrada (Iteracion : out N_Iteracion;
-                           SR1         : out Valor_Radiacion; 
-                           ST4         : out Valor_Temperatura; 
-                           ST3         : out Valor_Temperatura;
-                           Fin_Archivo : out Boolean);
+                          SR1         : out Valor_Radiacion; 
+                          ST4         : out Valor_Temperatura; 
+                          ST3         : out Valor_Temperatura;
+                          Fin_Archivo : out Boolean);
    
    procedure Registrar_Datos (Fila : in Iteracion_Registro);
-   
    
    procedure Registrar_Alarma (K : in N_Iteracion; Mensaje : in String);
 end gestion_archivos;
