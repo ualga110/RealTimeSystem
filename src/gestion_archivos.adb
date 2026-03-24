@@ -109,13 +109,12 @@ package body gestion_archivos is
    procedure Registrar_Alarma (K : in N_Iteracion; Mensaje : in String) is
       Fichero : File_Type;
    begin
-      if Exists(Archivo_Alarm) then
-         Open(Fichero, Append_File, Archivo_Alarm);
-      else
+      if not Exists(Archivo_Alarm) then
          Crear_Cabecera_Alarm;
-         Open(Fichero, Append_File, Archivo_Alarm);
       end if;
       
+      Open(Fichero, Append_File, Archivo_Alarm);
+
       Ada.Integer_Text_IO.Put(Fichero, Integer(K), Width => 4);
       Put(Fichero, " | ");
       Put(Fichero, Mensaje);

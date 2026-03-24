@@ -2,6 +2,7 @@ with Datos; use Datos;
 
 package Controladores is
 
+   -- Los valores óptimos para calcular SC1 y SC2
    ST2_Optimo : constant Float := 78.0;
    SD1_Optimo : constant Float := 23.0;
 

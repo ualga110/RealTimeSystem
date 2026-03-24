@@ -1,11 +1,16 @@
    N | MENSAJE
 -----|----------------
-   1 | Caudal de destilado bajo
-   2 | Caudal de destilado bajo
-   3 | Caudal de destilado bajo
+   6 | Temperatura demasiado alta
+   7 | Temperatura demasiado alta
+   8 | Temperatura demasiado alta
+   9 | Temperatura demasiado alta
+  10 | Temperatura demasiado alta
+  11 | Temperatura demasiado alta
+  12 | Temperatura demasiado alta
   13 | Temperatura demasiado alta
   14 | Temperatura demasiado alta
   15 | Temperatura demasiado alta
   16 | Temperatura demasiado alta
   17 | Temperatura demasiado alta
+  18 | Temperatura demasiado alta
   19 | Temperatura demasiado alta
