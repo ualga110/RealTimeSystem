@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__ejercicio_2.o
+[PROJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/str.gpr
+20260329154414 a88e08891f5219bc3a34b1d05fc6d1d7
+[BOUND OBJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/obj/datos.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/controladores.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/gestion_archivos.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/simulador.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/ejercicio_2.o
+[GENERATED SOURCE FILES]
+b__ejercicio_2.ads
+b__ejercicio_2.adb
+b__ejercicio_2.ali
+[RESULTING OPTIONS]
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/adalib/libgnat.a
+-ldl

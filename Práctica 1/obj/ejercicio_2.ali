@@ -1,0 +1,136 @@
+V "GNAT Lib v15"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ejercicio_2%b		ejercicio_2.adb		c00f8ac2 NE OO SU KM
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W controladores%s	controladores.adb	controladores.ali
+W datos%s		datos.ads		datos.ali
+W gestion_archivos%s	gestion_archivos.adb	gestion_archivos.ali
+W simulador%s		simulador.adb		simulador.ali
+
+D ada.ads		20260209135214 76789da1 ada%s
+D a-except.ads		20260209135214 e7970cd9 ada.exceptions%s
+D a-flteio.ads		20260209135214 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20260209135214 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20260209135214 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260209135214 17477cbd ada.streams%s
+D a-string.ads		20260209135214 90ac6797 ada.strings%s
+D a-sttebu.ads		20260209135214 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260209135214 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260209135214 fbca0ad5 ada.tags%s
+D a-textio.ads		20260209135214 34ef47de ada.text_io%s
+D a-tiflio.ads		20260209135214 48a0360d ada.text_io.float_io%s
+D a-tiinio.ads		20260209135214 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20260209135214 0e9b276f ada.unchecked_conversion%s
+D controladores.ads	20260329154414 9d798fae controladores%s
+D datos.ads		20260329154414 f85a2e9f datos%s
+D ejercicio_2.adb	20260329154414 536bc210 ejercicio_2%b
+D gestion_archivos.ads	20260329154414 66ea60e7 gestion_archivos%s
+D interfac.ads		20260209135214 9111f9c1 interfaces%s
+D i-cstrea.ads		20260209135214 ffd01b9d interfaces.c_streams%s
+D simulador.ads		20260329154414 b38300de simulador%s
+D system.ads		20260209135214 14286b0f system%s
+D s-crtl.ads		20260209135214 beb39b9e system.crtl%s
+D s-exctab.ads		20260209135214 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260209135214 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260209135214 3597fc11 system.parameters%s
+D s-putima.ads		20260209135214 17291fe4 system.put_images%s
+D s-secsta.ads		20260209135214 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260209135214 5d88fdea system.soft_links%s
+D s-stache.ads		20260209135214 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260209135214 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260209135214 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260209135214 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260209135214 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260209135214 d9032363 system.wch_con%s
+G a e
+G c Z b b [ejercicio_2 standard 23 11 none]
+G r c none [ejercicio_2 standard 23 11 none] [comprobar_archivos gestion_archivos 7 14 none]
+G r c none [ejercicio_2 standard 23 11 none] [crear_cabecera_log gestion_archivos 9 14 none]
+G r c none [ejercicio_2 standard 23 11 none] [abrir_entrada gestion_archivos 13 14 none]
+G r c none [ejercicio_2 standard 23 11 none] [leer_entrada gestion_archivos 19 14 none]
+G r c none [ejercicio_2 standard 23 11 none] [calcular_sc1 controladores 9 13 none]
+G r c none [ejercicio_2 standard 23 11 none] [calcular_sc2 controladores 15 13 none]
+G r c none [ejercicio_2 standard 23 11 none] [calcular_paso simulador 5 13 none]
+G r c none [ejercicio_2 standard 23 11 none] [cerrar_entrada gestion_archivos 16 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 17|1r6 2r5 4r6 5r5 7r6 8r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 17|4w10 5r9
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 17|7w10 8r9
+X 11 a-textio.ads
+58K13*Text_IO 785e16 17|1w10 2r9
+89I12*Field{integer}
+284U14*New_Line 17|62s9 71s4 106s4 108s4
+515U14*Put 17|48s9 50s9 52s9 54s9 56s9 58s9 60s9
+565U14*Put_Line 17|70s4 107s4 109s4 110s4
+X 12 a-tiflio.ads
+88U14*Put 17|51s9[3|20] 53s9[3|20] 55s9[3|20] 57s9[3|20] 59s9[3|20] 61s9[3|20]
+90i7 Fore{11|89I12} 17|51r35[3|20] 53r35[3|20] 55r35[3|20] 57r35[3|20] 59r35[3|20]
+. 61r35[3|20]
+91i7 Aft{11|89I12} 17|51r46[3|20] 53r46[3|20] 55r46[3|20] 57r46[3|20] 59r46[3|20]
+. 61r46[3|20]
+92i7 Exp{11|89I12} 17|51r56[3|20] 53r56[3|20] 55r56[3|20] 57r56[3|20] 59r56[3|20]
+. 61r56[3|20]
+X 13 a-tiinio.ads
+85U14*Put 17|49s9[4|18]
+87i7 Width{11|89I12} 17|49r35[4|18]
+X 15 controladores.ads
+3K9*Controladores 20e18 17|16w6 17r5
+9V13*Calcular_SC1{16|8F12} 17|87s26
+15V13*Calcular_SC2{16|8F12} 17|88s26
+X 16 datos.ads
+1K9*Datos 40e10 17|10w6 11r5
+4F9*Valor_Sensor<float>
+5I9*N_Iteracion<integer> 17|39r16
+7F12*Valor_Temperatura{4F9} 17|41r10 42r10
+8F12*Valor_Caudal{4F9}
+9F12*Valor_Radiacion{4F9} 17|40r10
+14R9*Iteracion_Registro 24e14 17|25r18 36r18 37r18 45r56
+15i7*N{5I9} 17|26m7 49r31 81m19
+16f7*ST1{4F9} 17|27m7 59r29 87r67 91m19
+17f7*ST2{4F9} 17|28m7 57r29 87r91 88r62 92m19
+18f7*ST3{7F12} 17|29m7 55r29 84m19
+19f7*ST4{7F12} 17|30m7 53r29 83m19
+20f7*SC1{8F12} 17|31m7 87m19
+21f7*SC2{8F12} 17|32m7 88m19
+22f7*SR1{9F12} 17|33m7 51r29 82m19
+23f7*SD1{4F9} 17|34m7 61r29 93m19
+X 17 ejercicio_2.adb
+23U11*Ejercicio_2 23b11 112l5 112t16
+25r4 Paso_Previo{16|14R9} 87r55 87r79 88r50 95r47 100m7
+36r4 Paso_Actual{16|14R9} 81m7 82m7 83m7 84m7 87m7 88m7 91m7 92m7 93m7 95r34
+37r4 Resultado{16|14R9} 49r21 51r19 53r19 55r19 57r19 59r19 61r19 95m7 97r25
+. 100r22
+39i4 Iteracion{16|5I9} 74m20 81r26
+40f4 SR1{16|9F12} 74m31 82r26 87r39
+41f4 ST4{16|7F12} 74m36 83r26 87r44
+42f4 ST3{16|7F12} 74m41 84r26 88r39
+43b4 Fin{boolean} 73r14 74m46 77r10
+45U15 Imprimir_Pantalla 45b15 45>34 63l9 63t26 97s7
+45r34 Iteracion_Actual{16|14R9}
+X 18 gestion_archivos.ads
+4K9*gestion_archivos 17|19w6 20r5 18|31e21
+7U14*Comprobar_Archivos 17|66s4
+9U14*Crear_Cabecera_Log 17|67s4
+13U14*Abrir_Entrada 17|68s4
+16U14*Cerrar_Entrada 17|104s4
+19U14*Leer_Entrada 17|74s7
+X 21 simulador.ads
+3K9*Simulador 17|13w6 14r5 21|10e14
+5V13*Calcular_Paso{16|14R9} 17|95s20
+
