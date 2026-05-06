@@ -6,9 +6,9 @@
 --  Las constantes fisicas (Beta, L_eq, H, C, C_p, Rho) se toman del paquete
 --  Datos en lugar de definirse aqui, eliminando duplicacion.
 --
---  Toda la aritmetica interna se realiza en Float. Los campos de tipo
---  Valor_Sensor (ST1, ST2, SD1) se convierten con Float() al operar y
---  se convierten de vuelta con Valor_Sensor() al guardar resultados.
+--  NOTA sobre Ec.(4): el termino SC2 en la ecuacion de SD1 esta en L/h
+--  segun el enunciado (SC2_Nominal = 400 L/h). Los coeficientes 0.001 y
+--  0.00004 de la ecuacion vienen dados en el enunciado tal cual.
 -- ===========================================================================
 
 with Datos; use Datos;
@@ -24,7 +24,7 @@ package body Simulador is
       --  Se inicializa con Paso_Actual para conservar: N, SR1, ST4, ST3, SC1, SC2.
       --  Luego se sobreescriben ST2, ST1 y SD1 con los valores calculados.
 
-      Denom  : Float;  -- SC1 * Cp * rho
+      Denom  : Float;  -- SC1 * C_p * Rho
       Tt_k   : Float;  -- Temperatura media del colector [degC]  (variable local)
       ST2_k  : Float;  -- ST2(k) calculado
       ST1_k  : Float;  -- ST1(k) calculado
@@ -61,6 +61,7 @@ package body Simulador is
       --                         - 0.001   * SC2(k)
       --                         + 0.00004 * ST2(k-1) * SC2(k) )
       --  Nota: usa ST2(k-1) = Paso_Previo.ST2
+      --        SC2 en L/h (segun enunciado, SC2_Nominal = 400 L/h)
       -- -----------------------------------------------------------------------
       SD1_k := 24.0 * (  0.135
                         + 0.003   * Float (Paso_Previo.ST2)

@@ -1,11 +1,17 @@
-   N | MENSAJE
------|----------------
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
-   1 | Temperatura demasiado alta
+   k | MENSAJE DE ALARMA
+-----|---------------------------------------------
+   6 | ST2= 9.60760E+01 degC > limite  9.50000E+01 degC
+   7 | ST2= 9.65200E+01 degC > limite  9.50000E+01 degC
+   8 | ST2= 9.59168E+01 degC > limite  9.50000E+01 degC
+   9 | ST2= 9.67154E+01 degC > limite  9.50000E+01 degC
+  10 | ST2= 9.81443E+01 degC > limite  9.50000E+01 degC
+  11 | ST2= 9.84426E+01 degC > limite  9.50000E+01 degC
+  12 | ST2= 9.97711E+01 degC > limite  9.50000E+01 degC
+  13 | ST2= 1.00677E+02 degC > limite  9.50000E+01 degC
+  14 | ST2= 1.01526E+02 degC > limite  9.50000E+01 degC
+  15 | ST2= 1.02644E+02 degC > limite  9.50000E+01 degC
+  16 | ST2= 1.03669E+02 degC > limite  9.50000E+01 degC
+  17 | ST2= 1.01526E+02 degC > limite  9.50000E+01 degC
+  18 | ST2= 9.98694E+01 degC > limite  9.50000E+01 degC
+  19 | ST2= 1.00046E+02 degC > limite  9.50000E+01 degC
+  20 | ST2= 9.67774E+01 degC > limite  9.50000E+01 degC
