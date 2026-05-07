@@ -8,7 +8,7 @@ package body Procedimientos is
    begin
       Put_Line("CCS - Solicitud la lectura de la tarjeta A/D....");
       Put_Line("CCS - Lectura de sensores (ST1, ST2, ST4, SR1)...");
-      Put_Line("CCS - Calculo accion de control para caudal optimo"...);
+      Put_Line("CCS - Calculo accion de control para caudal optimo...");
       Put_Line("CCS - Escritura señal de control (SC1) en Bomba 1 mediante A/D");
       Put_Line("CCS - Enviando telemetria a la Visualizacion por Pantalla (VP)...");
       Put_Line("CCS - Registro de los datos en el Almacenamiento de Datos (BD)...");

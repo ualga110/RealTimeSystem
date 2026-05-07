@@ -1,3 +1,4 @@
+with Procedimientos; use Procedimientos;
 procedure Main is
 
 begin
