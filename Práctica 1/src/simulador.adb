@@ -4,15 +4,15 @@ with Ada.Text_IO;
 use Ada.Text_IO;
 package body Simulador is
 
-   -- Al tener una variable con la cual obtenemos todas las variables de una iteración,
-   -- únicamente necesitamos el paso actual y el previo para obtener todas las variables
+   -- Al tener una variable con la cual obtenemos todas las variables de una iteraciÃ³n,
+   -- Ãºnicamente necesitamos el paso actual y el previo para obtener todas las variables
    function Calcular_Paso
      (Paso_Actual : Iteracion_Registro;
       Paso_Previo : Iteracion_Registro)
       return Iteracion_Registro
    is
       -- Se inicializa con Paso_Actual para conservar las variables de este paso
-      -- y después actualizarlas con los valores calculados
+      -- y despuÃ©s actualizarlas con los valores calculados
       Resultado : Iteracion_Registro := Paso_Actual;
 
       Denom  : Float;
