@@ -1,6 +1,6 @@
 with Tareas;
 with Procedimientos; use Procedimientos;
-procedure Main is
+procedure Concurrente is
 
 begin
 
@@ -12,4 +12,4 @@ begin
       delay 10.0;
 
    end loop;
-end Main;
+end Concurrente;

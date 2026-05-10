@@ -1,5 +1,5 @@
 with Procedimientos; use Procedimientos;
-procedure Main is
+procedure Ciclico is
 
 begin
 
@@ -21,4 +21,4 @@ begin
 
 
    end loop;
-end Main;
+end Ciclico;
