@@ -1,83 +1,117 @@
-with ADA.Text_IO; use ADA.Text_IO;
+with Ada.Text_IO; use Ada.Text_IO;
 
-package body tareas is
+package body Tareas is
 
-   protected body Pantalla is
-
-      -- Recurso compartido
-
-      procedure Escribir (Mensaje : in String) is
-      begin
-         for i in Mensaje'Range loop
-         Ada.Text_IO.Put(Mensaje(i));
-         delay 0.001;
+   task body Pantalla_VP is
+   begin
+      loop
+         select
+            accept Mostrar_CCS(Msg : in String) do
+               for i in Msg'Range loop
+                  Put(Msg(i));
+               end loop;
+               New_Line;
+            end Mostrar_CCS;
+         or
+            accept Mostrar_CMD(Msg : in String) do
+               for i in Msg'Range loop
+                  Put(Msg(i));
+               end loop;
+               New_Line;
+            end Mostrar_CMD;
+         or
+            accept Mostrar_SS(Msg : in String) do
+               for i in Msg'Range loop
+                  Put(Msg(i));
+               end loop;
+               New_Line;
+            end Mostrar_SS;
+         end select;
       end loop;
+   end Pantalla_VP;
 
-      end Escribir;
+   task body Lector_AD is
+   begin
+      loop
+         select
+            accept Leer_CCS do
+               null;
+            end Leer_CCS;
+         or
+            accept Leer_CMD do
+               null;
+            end Leer_CMD;
+         or
+            accept Leer_SS do
+               null;
+            end Leer_SS;
+         end select;
+      end loop;
+   end Lector_AD;
 
-   end Pantalla;
+   task body Escritor_AD is
+   begin
+      loop
+         select
+            accept Escribir_SC1 do
+               null;
+            end Escribir_SC1;
+         or
+            accept Escribir_SC2 do
+               null;
+            end Escribir_SC2;
+         end select;
+      end loop;
+   end Escritor_AD;
 
-
-   -- Tarea 1
+   protected body Almacenamiento_Datos is
+      procedure Registrar(Datos : in String) is
+      begin
+         null;
+      end Registrar;
+   end Almacenamiento_Datos;
 
    task body Sistema_Seguridad is
    begin
       loop
-         Pantalla.Escribir("SS - Solicitud de lectura a tarjeta A...");
-
-         Pantalla.Escribir("SS - Comprobar límites de seguridad (T < 95 ºC)...");
-
-         Pantalla.Escribir("SS - Enviando estado a la Pantalla (VP) ...");
-
-
-         Pantalla.Escribir("SS - Registro de alarmas en la Almacenamiento de Datos....");
-
+         Pantalla_VP.Mostrar_SS("SS - Solicitud de lectura de tarjeta A/D...");
+         Lector_AD.Leer_SS;
+         Pantalla_VP.Mostrar_SS("SS - Lectura de entrada del modulo y la salida de temperatura del campo (ST2)...");
+         Pantalla_VP.Mostrar_SS("SS - Comprobacion niveles de seguridad (T < 95 C)...");
+         Pantalla_VP.Mostrar_SS("SS - Enviando estado a la Visualizacion por Pantalla (VP)...");
+         Pantalla_VP.Mostrar_SS("SS - Registro alarmas en el Almacenamiento de Datos (AD)...");
+         Almacenamiento_Datos.Registrar("SS - Registro alarmas en AD");
       end loop;
    end Sistema_Seguridad;
 
-   -- Tarea 2
-
    task body Control_Campo_Solar is
-      begin
+   begin
       loop
-
-         Pantalla.Escribir("CCS - Lectura de sensores de radiación y temperatura...");
-
-
-         Pantalla.Escribir("CCS - Calculo acción de control....");
-
-
-         Pantalla.Escribir("CCS - Escribiendo en actuador mediante A/D....");
-
-
-         Pantalla.Escribir("CCS - Envío telemetría a la Pantalla (VP)....");
-
-
-         Pantalla.Escribir("CCS - Registro de datos en la AD...");
-
-
-         end loop;
+         Pantalla_VP.Mostrar_CCS("CCS - Solicitud lectura de tarjeta A/D...");
+         Lector_AD.Leer_CCS;
+         Pantalla_VP.Mostrar_CCS("CCS - Lectura de sensores (ST1, ST2, ST4, SR1)...");
+         Pantalla_VP.Mostrar_CCS("CCS - Calculo accion de control para caudal optimo...");
+         Pantalla_VP.Mostrar_CCS("CCS - Escritura de control (SC1) en Bomba1 mediante A/D...");
+         Escritor_AD.Escribir_SC1;
+         Pantalla_VP.Mostrar_CCS("CCS - Enviando telemetria a la Visualizacion por Pantalla (VP)...");
+         Pantalla_VP.Mostrar_CCS("CCS - Registro de datos en el Almacenamiento de Datos (AD)...");
+         Almacenamiento_Datos.Registrar("CCS - Registro de datos en AD");
+      end loop;
    end Control_Campo_Solar;
 
-   -- Tarea 3
-
    task body Control_Modulo_MD is
-     begin
+   begin
       loop
-
-          Pantalla.Escribir("CMD - Lectura sensores de flujo del modelo....");
-
-          Pantalla.Escribir("CMD - Calculo caudal requerido (SC2)...");
-
-
-          Pantalla.Escribir("CMD - Escritura en actuador mediante A/D");
-
-          Pantalla.Escribir("CMD - Envío telemetría a la Pantalla (VP)....");
-
-          Pantalla.Escribir("CMD - Registro de datos en la AD...");
-
-        end loop;
-
+         Pantalla_VP.Mostrar_CMD("CMD - Solicitud lectura de tarjeta A/D...");
+         Lector_AD.Leer_CMD;
+         Pantalla_VP.Mostrar_CMD("CMD - Lectura de sensores de temperatura del modulo (ST2, ST3)...");
+         Pantalla_VP.Mostrar_CMD("CMD - Calculo de Caudal requerido para producir 23 L/h...");
+         Pantalla_VP.Mostrar_CMD("CMD - Escritura de control (SC2) en Bomba2 mediante A/D...");
+         Escritor_AD.Escribir_SC2;
+         Pantalla_VP.Mostrar_CMD("CMD - Enviando telemetria a la Visualizacion por Pantalla (VP)...");
+         Pantalla_VP.Mostrar_CMD("CMD - Registro de datos en el Almacenamiento de Datos (AD)...");
+         Almacenamiento_Datos.Registrar("CMD - Registro de datos en AD");
+      end loop;
    end Control_Modulo_MD;
 
-end tareas;
+end Tareas;
