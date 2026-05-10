@@ -3,14 +3,14 @@ procedure Main is
 
 begin
 
-   -- Bucle infinito del procedimiento cíclico secuencial
+   -- Bucle infinito del procedimiento cï¿½clico secuencial
 
    loop
 
       -- El orden de ejecucion viene dado por el criterio y el periodo establecidos
 
 
-      -- 1. Se ejecuta la tarea con mayor nivel de prioridad (Prevencion de daños)
+      -- 1. Se ejecuta la tarea con mayor nivel de prioridad (Prevencion de daï¿½os)
       Sistema_Seguridad;
 
       -- 2. Se ejecuta tarea nivel de prioridad medio (Control de la energia)

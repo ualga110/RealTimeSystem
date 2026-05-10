@@ -1,0 +1,61 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U controladores%b	controladores.adb	734a5b7b NE OO PK
+W datos%s		datos.ads		datos.ali
+
+U controladores%s	controladores.ads	6523a131 EE NE OO PK
+W datos%s		datos.ads		datos.ali
+
+D controladores.ads	20260329154414 9d798fae controladores%s
+D controladores.adb	20260329154414 1669fa4a controladores%b
+D datos.ads		20260329154414 f85a2e9f datos%s
+D system.ads		20260209135214 14286b0f system%s
+G a e
+G c Z s b [calcular_sc1 controladores 9 13 none]
+G c Z s b [calcular_sc2 controladores 15 13 none]
+X 1 controladores.ads
+3K9*Controladores 20l5 20e18 2|3b14 89l5 89t18
+6f4*ST2_Optimo{float} 2|34r23
+7f4*SD1_Optimo{float}
+9V13*Calcular_SC1{3|8F12} 9>27 10>27 11>27 12>27 2|5b13 47l8 47t20
+9f27 SR1{3|9F12} 2|5b27 33r45
+10f27 ST4{3|7F12} 2|6b27 33r70
+11f27 ST1_Prev{float} 2|7b27 31r16 34r36
+12f27 ST2_Prev{float} 2|8b27 31r27
+15V13*Calcular_SC2{3|8F12} 15>27 16>27 2|49b13 87l8 87t20
+15f27 ST3{3|7F12} 2|49b27 75r83
+16f27 ST2_Prev{float} 2|50b27 75r56 76r43
+X 2 controladores.adb
+11f7 Tt_k{float} 31m7 33r57
+12f7 Numerador{float} 33m7 41r27
+13f7 Denominador{float} 34m7 38r10 41r39
+14f7 SC1_Calculado{float} 39m10 41m10 44m22 44r22 46r27
+19U17 Normalizar_SC1 19b17 19=32 28l11 28t25 44s7
+19f32 SC1_Calculado{float} 22r13 23m13 24r16 25m13
+53f7 Numerador{float} 75m7 81r27
+54f7 Denominador{float} 76m7 78r10 81r39
+55f7 SC2_Calculado{float} 79m10 81m10 84m22 84r22 86r27
+56f7 SC2_Lim{float}
+62U17 Normalizar_SC2 62b17 62=32 72l11 72t25 84s7
+62f32 SC2_Calculado{float} 66r13 67m13 68r16 69m13
+X 3 datos.ads
+1K9*Datos 1|1w6 1r17 2|1w6 1r17 3|40e10
+4F9*Valor_Sensor<float>
+7F12*Valor_Temperatura{4F9} 1|10r39 15r39 2|6r39 49r39
+8F12*Valor_Caudal{4F9} 1|13r34 17r34 2|9r34 46r14 51r34 86r14
+9F12*Valor_Radiacion{4F9} 1|9r39 2|5r39
+27f4*Beta{float} 2|33r25
+28f4*L_eq{float} 2|33r32
+29f4*H{float} 2|33r52
+30f4*C{float} 2|33r20
+31f4*C_p{float} 2|34r48
+32f4*Rho{float} 2|34r54
+

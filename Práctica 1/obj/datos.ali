@@ -1,0 +1,44 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U datos%s		datos.ads		f85a2e9f NE OO PK KM
+
+D datos.ads		20260329154414 f85a2e9f datos%s
+D system.ads		20260209135214 14286b0f system%s
+G a e
+G c Z s s [iteracion_registroIP datos 14 9 none]
+X 1 datos.ads
+1K9*Datos 40l5 40e10
+4F9*Valor_Sensor<float> 7r33 8r33 9r33 16r13 17r13 23r13
+5I9*N_Iteracion<integer> 15r13
+7F12*Valor_Temperatura{4F9} 18r13 19r13
+8F12*Valor_Caudal{4F9} 20r13 21r13
+9F12*Valor_Radiacion{4F9} 22r13
+14R9*Iteracion_Registro 24e14
+15i7*N{5I9}
+16f7*ST1{4F9}
+17f7*ST2{4F9}
+18f7*ST3{7F12}
+19f7*ST4{7F12}
+20f7*SC1{8F12}
+21f7*SC2{8F12}
+22f7*SR1{9F12}
+23f7*SD1{4F9}
+27f4*Beta{float}
+28f4*L_eq{float}
+29f4*H{float}
+30f4*C{float}
+31f4*C_p{float}
+32f4*Rho{float}
+35a4*Carpeta_Archivos{string} 36r41 37r37 38r39
+36a4*Archivo_Entrada{string}
+37a4*Archivo_Log{string}
+38a4*Archivo_Alarm{string}
+

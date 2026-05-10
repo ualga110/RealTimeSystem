@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/str.gpr
+20260323184342 a630182b2fe286600fd2a28f7516adad
+[BOUND OBJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/obj/datos.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/gestion_archivos.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/simulador.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/adalib/libgnat.a
+-ldl
