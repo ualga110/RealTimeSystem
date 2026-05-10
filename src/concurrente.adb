@@ -1,5 +1,4 @@
 with Tareas;
-with Procedimientos; use Procedimientos;
 procedure Concurrente is
 
 begin
