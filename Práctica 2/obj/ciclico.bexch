@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ciclico.o
+[PROJECT FILES]
+/home/almanxa/Documentos/2Cuatri/STR/RepoPracticas/practica_2.gpr
+20260510115017 fc1ab81da9e319b49eb5a8bd7198dd44
+[BOUND OBJECT FILES]
+/home/almanxa/Documentos/2Cuatri/STR/RepoPracticas/obj/procedimientos.o
+/home/almanxa/Documentos/2Cuatri/STR/RepoPracticas/obj/ciclico.o
+[GENERATED SOURCE FILES]
+b__ciclico.ads
+b__ciclico.adb
+b__ciclico.ali
+[RESULTING OPTIONS]
+-L/home/almanxa/Documentos/2Cuatri/STR/RepoPracticas/obj/
+-L/home/almanxa/Documentos/2Cuatri/STR/RepoPracticas/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/adalib/libgnat.a
+-ldl

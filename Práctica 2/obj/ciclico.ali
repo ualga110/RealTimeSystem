@@ -1,0 +1,29 @@
+V "GNAT Lib v16"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ciclico%b		ciclico.adb		ac908aaf NE OO SU
+W procedimientos%s	procedimientos.adb	procedimientos.ali
+
+D ciclico.adb		20260510115159 58e9bd31 ciclico%b
+D procedimientos.ads	20260510114215 f479379e procedimientos%s
+D system.ads		20260501130736 e2b7c99d system%s
+G a e
+G c Z b b [ciclico standard 2 11 none]
+G r c none [ciclico standard 2 11 none] [sistema_seguridad procedimientos 5 14 none]
+G r c none [ciclico standard 2 11 none] [control_campo_solar procedimientos 4 14 none]
+G r c none [ciclico standard 2 11 none] [control_modulo_md procedimientos 6 14 none]
+X 1 ciclico.adb
+2U11*Ciclico 2b11 24l5 24t12
+X 2 procedimientos.ads
+1K9*Procedimientos 1|1w6 1r26 2|9e19
+4U14*Control_Campo_Solar 1|17s7
+5U14*Sistema_Seguridad 1|14s7
+6U14*Control_Modulo_MD 1|20s7
+

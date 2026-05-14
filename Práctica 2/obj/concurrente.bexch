@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__concurrente.o
+[PROJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr
+20260510115017 5c0b8bbf2408a9d0f93ab8719b732c13
+[BOUND OBJECT FILES]
+/home/almanxa/Uni/STR/RepoPracticas/obj/tareas.o
+/home/almanxa/Uni/STR/RepoPracticas/obj/concurrente.o
+[GENERATED SOURCE FILES]
+b__concurrente.ads
+b__concurrente.adb
+b__concurrente.ali
+[RESULTING OPTIONS]
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/home/almanxa/Uni/STR/RepoPracticas/obj/
+-L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/adalib/
+-static
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/adalib/libgnarl.a
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl

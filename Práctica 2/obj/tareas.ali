@@ -1,0 +1,168 @@
+V "GNAT Lib v16"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ENTRY_CALLS_IN_ELABORATION_CODE
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_PROTECTED_TYPES
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_SELECT_ALTERNATIVES=3
+RV MAX_TASK_ENTRIES=3
+RV MAX_TASKS=6
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U tareas%b		tareas.adb		0172fa93 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U tareas%s		tareas.ads		2c496c04 EE OO PF PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-finali.ads		20260501130736 099c16e4 ada.finalization%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-reatim.ads		20260501130736 d11673fd ada.real_time%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-atacco.ads		20260501130736 5868e3ba system.address_to_access_conversions%s
+D s-c_time.ads		20260501130736 e502d0c0 system.c_time%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20260501130736 0a7c3ed4 system.finalization_root%s
+D s-linux.ads		20260501130736 96312dab system.linux%s
+D s-multip.ads		20260501130736 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20260501130736 8f610562 system.os_constants%s
+D s-osinte.ads		20260501130736 bfc41750 system.os_interface%s
+D s-oslock.ads		20260501130736 13fa6b78 system.os_locks%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20260501130736 f470ae2d system.stack_usage%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20260501130736 528dde74 system.task_info%s
+D s-taspri.ads		20260501130736 4fd5ef41 system.task_primitives%s
+D s-taprop.ads		20260501130736 6a572f54 system.task_primitives.operations%s
+D s-taskin.ads		20260501130736 e3b5765b system.tasking%s
+D s-taprob.ads		20260501130736 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20260501130736 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20260501130736 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20260501130736 cca55c94 system.tasking.stages%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D tareas.ads		20260510151026 2c496c04 tareas%s
+D tareas.adb		20260510150647 19d4d149 tareas%b
+G a e
+G c Z s b [pantalla_vpTK tareas 5 10 none]
+G c Z s b [mostrar_ccs tareas__pantalla_vp 6 14 none]
+G c Z s b [mostrar_cmd tareas__pantalla_vp 7 14 none]
+G c Z s b [mostrar_ss tareas__pantalla_vp 8 14 none]
+G c Z s s [pantalla_vpTKVIP tareas 5 5 none]
+G c Z s s [P2sIP tareas 6 8 none]
+G c Z s s [P5sIP tareas 7 8 none]
+G c Z s s [P8sIP tareas 8 8 none]
+G c Z s b [lector_adTK tareas 13 10 none]
+G c Z s b [leer_ccs tareas__lector_ad 14 14 none]
+G c Z s b [leer_cmd tareas__lector_ad 15 14 none]
+G c Z s b [leer_ss tareas__lector_ad 16 14 none]
+G c Z s s [lector_adTKVIP tareas 13 5 none]
+G c Z s b [escritor_adTK tareas 21 10 none]
+G c Z s b [escribir_sc1 tareas__escritor_ad 22 14 none]
+G c Z s b [escribir_sc2 tareas__escritor_ad 23 14 none]
+G c Z s s [escritor_adTKVIP tareas 21 5 none]
+G c Z s b [registrar tareas__almacenamiento_datos 29 18 none]
+G c Z s b [almacenamiento_datos__registrarN tareas 29 8 none]
+G c Z s b [almacenamiento_datos__registrarP tareas 29 8 none]
+G c Z s s [almacenamiento_datosTVIP tareas 28 5 none]
+G c Z s b [sistema_seguridadTK tareas 33 9 none]
+G c Z s s [sistema_seguridadTKVIP tareas 33 4 none]
+G c Z s b [control_campo_solarTK tareas 36 9 none]
+G c Z s s [control_campo_solarTKVIP tareas 36 4 none]
+G c Z s b [control_modulo_mdTK tareas 39 9 none]
+G c Z s s [control_modulo_mdTKVIP tareas 39 4 none]
+X 1 ada.ads
+18K9*Ada 22e8 49|1r6 1r23
+X 11 a-textio.ads
+58K13*Text_IO 785e16 49|1w10 1r27
+284U14*New_Line 49|14s19 22s19 30s19
+433U14*Put 49|12s22 20s22 28s22
+X 34 s-stausa.ads
+206U14*Initialize 207i<c,__gnat_stack_usage_initialize>22
+265U14*Output_Results 269i<c,__gnat_stack_usage_output_results>22
+X 48 tareas.ads
+1K9*Tareas 42l5 42e11 49|3b14 123l5 123t11
+5t10*Pantalla_VP 49|5b14 34l8 34t19 42r19 47r19 52r19 63r16 67r16 83r10 85r10
+. 86r10 87r10 88r10 96r10 98r10 99r10 100r10 102r10 103r10 111r10 113r10
+. 114r10 115r10 117r10 118r10
+6Y14 Mostrar_CCS 6>26 49|18b23 23l20 23t31 47s31 63s28 96s22 98s22 99s22
+. 100s22 102s22 103s22
+6a26 Msg{string} 49|19r28 20r26
+7Y14 Mostrar_CMD 7>26 49|26b23 31l20 31t31 52s31 67s28 111s22 113s22 114s22
+. 115s22 117s22 118s22
+7a26 Msg{string} 49|27r28 28r26
+8Y14 Mostrar_SS 8>25 49|9r18 10b23 15l20 15t30 17r18 25r18 42s31 83s22 85s22
+. 86s22 87s22 88s22
+8a25 Msg{string} 49|11r28 12r26
+13t10*Lector_AD 49|36b14 56l8 56t17 84r10 97r10 112r10
+14Y14 Leer_CCS 49|46b23 48l20 48t28 97s20
+15Y14 Leer_CMD 49|51b23 53l20 53t28 112s20
+16Y14 Leer_SS 49|40r18 41b23 43l20 43t27 45r18 50r18 84s20
+21t10*Escritor_AD 49|58b14 71l8 71t19 101r10 116r10
+22Y14 Escribir_SC1 49|62b20 64l17 64t29 101s22
+23Y14 Escribir_SC2 49|66b20 68l17 68t29 116s22
+28w15*Almacenamiento_Datos 49|73b19 78l8 78t28 89r10 104r10 119r10
+29U18 Registrar 29>28 49|74b17 77l11 77t20 89s31 104s31 119s31
+29a28 Datos{string} 49|74b27
+33t9*Sistema_Seguridad 49|80b14 91l8 91t25
+36t9*Control_Campo_Solar 49|93b14 106l8 106t27
+39t9*Control_Modulo_MD 49|108b14 121l8 121t25
+X 49 tareas.adb
+10a34 Msg{string}
+11i23 i{integer} 12r30
+18a35 Msg{string}
+19i23 i{integer} 20r30
+26a35 Msg{string}
+27i23 i{integer} 28r30
+

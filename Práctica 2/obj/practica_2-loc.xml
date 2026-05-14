@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/datos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 83" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/controladores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/simulador.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/simulador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/controladores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/ejercicio_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/Pr#195;#161;ctica 1/src/gestion_archivos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 31" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_8/ejercicio8_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_8/ejercicio8_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 25" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_8/ejercicio8_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_9/ejercicio9_2_static.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_8/ejercicio8_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterclient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterclient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterclient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 8" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 5" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterclient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 2" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterclient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterclient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterclient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 2" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_9/putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/proyectoEjerciciosSTR/src/ejercicio_10/ejercicio10_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 34" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 17" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Documentos/2Cuatri/STR/Bloque_Ejercicios_8_10/ejercicios.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 84" line=" 3" >
+      <vfs_project />
+      <vfs_file>/home/almanxa/Documentos/2Cuatri/STR/Bloque_Ejercicios_8_10/ejercicios.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 34" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 17" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/concurrente.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/procedimientos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/concurrente.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/almanxa/Uni/STR/RepoPracticas/practica_2.gpr</vfs_project>
+      <vfs_file>/home/almanxa/Uni/STR/RepoPracticas/src/tareas.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
