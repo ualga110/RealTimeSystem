@@ -5,11 +5,11 @@ package body Procedimientos is
 
 
    -- Procedimiento auxiliar que simula el tiempo de timeout de AD
-   procedure Timeout (Duracion : Time_Span) is
+   procedure Tiempo_Computo (Duracion : Time_Span) is
       Fin : Time := Clock + Duracion;
    begin
       delay until Fin;
-   end Timeout;
+   end Tiempo_Computo;
 
    -- Sistema de Seguridad (SS)
    procedure Sistema_Seguridad is
@@ -24,9 +24,9 @@ package body Procedimientos is
       Put_Line ("[SS] Enviando estado a la Visualizacion por Pantalla (VP)...");
 
       -- Envio de señales de alarma al Almacenamiento de Datos
-      -- con timeout de comunicacion de 10ms
+      -- con Tiempo_Computo de comunicacion de 10ms
       Put_Line ("[SS] Registro alarmas en el Almacenamiento de Datos (AD)...");
-      Timeout (Milliseconds (10));
+      Tiempo_Computo (Milliseconds (15));
 
       Put_Line ("[SS] --------------------------------------------------");
    end Sistema_Seguridad;
@@ -48,9 +48,9 @@ package body Procedimientos is
       -- Envio de telemetria a la tarea de Visualizacion por Pantalla
       Put_Line ("[CCS] Enviando telemetria a la Visualizacion por Pantalla (VP)...");
 
-      -- Registro de datos en el Almacenamiento con timeout de 10ms
+      -- Registro de datos en el Almacenamiento con Tiempo_Computo de 10ms
       Put_Line ("[CCS] Registro de los datos en el Almacenamiento de Datos (AD)...");
-      Timeout(Milliseconds (10));
+      Tiempo_Computo(Milliseconds (15));
 
       Put_Line ("[CCS] --------------------------------------------------");
    end Control_Campo_Solar;
@@ -72,9 +72,9 @@ package body Procedimientos is
       -- Envio de telemetria a la tarea de Visualizacion por Pantalla
       Put_Line ("[CMD] Enviando telemetria a la Visualizacion por Pantalla (VP)...");
 
-      -- Registro en el Almacenamiento con timeout de 15ms
+      -- Registro en el Almacenamiento con Tiempo_Computo de 15ms
       Put_Line ("[CMD] Registro de los datos en el Almacenamiento de Datos (AD)...");
-      Timeout (Milliseconds (15));
+      Tiempo_Computo (Milliseconds (20));
 
       Put_Line ("[CMD] --------------------------------------------------");
    end Control_Modulo_MD;

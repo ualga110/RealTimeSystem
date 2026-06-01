@@ -4,8 +4,7 @@ with Procedimientos;
 
 procedure Main_Ej1 is
 
-   -- Periodo del ciclo secundario
-   Ts : constant Time_Span := Milliseconds (100);
+
 
    -- Turno de tipo mod 4: al llegar a 4 vuelve a 0 automaticamente,
    -- haciendo que el hiperperiodo se repita indefinidamente.
@@ -13,7 +12,8 @@ procedure Main_Ej1 is
    Turno : Ciclo := 0;
 
    T : Time;
-
+   -- Periodo del ciclo secundario
+   Ts : constant Time_Span := Milliseconds (100);
 begin
 
    T := Clock;
@@ -23,6 +23,8 @@ begin
       -- Usar instante absoluto evita que los errores de tiempo se acumulen.
       T := T + Ts;
       delay until T;
+            -- CMD se activa únicamente en este subciclo
+            Procedimientos.Control_Modulo_MD;
 
       Put_Line ("--- Subciclo" & Ciclo'Image (Turno) & " ---");
 
@@ -30,16 +32,15 @@ begin
 
          when 0 =>
             -- SS se activa en todos los subciclos (T=100ms)
-            -- CCS se activa en subciclos 0 y 2 (T=200ms)
-            -- SS(42ms) + CCS(50ms) = 92ms < Ts=100ms
+            -- CCS se activa en subciclos 0 y 2    (T=200ms)
             Procedimientos.Sistema_Seguridad;
             Procedimientos.Control_Campo_Solar;
 
+
          when 1 =>
-            -- CMD se activa aqui porque en el subciclo 0 no habia hueco
-            -- SS(42ms) + CMD(55ms) = 97ms < Ts=100ms y su plazo es 400ms, cumple con margen
-            Procedimientos.Sistema_Seguridad;
+            -- CMD se activa únicamente en este subciclo
             Procedimientos.Control_Modulo_MD;
+            Procedimientos.Sistema_Seguridad;
 
          when 2 =>
             -- SS + CCS de nuevo (segunda activacion en el hiperperiodo)
